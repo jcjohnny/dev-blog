@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_feature_courses",
+  "info": {
+    "displayName": "featureCourse",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "announcement": {
+      "type": "text"
+    }
+  }
+}
